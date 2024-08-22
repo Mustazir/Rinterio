@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- Fontawsom -->
+    <script src="https://kit.fontawesome.com/92f97692fe.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- googleFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        secondery: 'rgba(171, 239, 95, 1)',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="manrope bg-[#f4f4f4]">
+
+    <header class="bg-gradient-to-b from-white to-[#f4f4f4] ">
+        <nav class="max-w-screen-xl mx-auto mt-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown ">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                    <h1 class="text-3xl font-extrabold"> <span class="m-3 h-10 w-10 bg-secondery rounded-full  "> <i
+                                class="p-2 fa-solid fa-arrow-right fa-rotate-by"
+                                style="color: #1c1c1c; --fa-rotate-angle: -45deg; "></i></span></i>Rinterio</h1>
+                </div>
+                <div class=" navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal text-base px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="navbar-end gap-4 hidden md:flex">
+                    <i class="bg-white shadow-lg border-[1px] border-gray-300 rounded-full p-2 fa-solid fa-cart-shopping"
+                        style="color: #737373;"></i>
+                    <i class="bg-white rounded-full shadow-lg border-[1px] border-gray-300 p-2 fa-solid fa-magnifying-glass"
+                        style="color: #737373;"></i>
+                    <button class="text-xl  font-extrabold text-slate-950 btn bg-secondery rounded-full">Book Consult
+                        <span class="ml-1 flex justify-center items-center h-8 w-8 bg-blue-950 rounded-full "> <i
+                                class="p-2 fa-solid fa-arrow-right fa-rotate-by"
+                                style="color: #fff8f8; --fa-rotate-angle: -45deg; "></i></span></button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero pb-24 ">
+            <div class="hero-content text-center">
+                <div class="max-w-6xl gap-6 flex flex-col items-center">
+                    <img class="max-w-72 md:max-w-md" src="assets/banner.png" alt="">
+                    <h1 class="text-4xl font-extrabold md:text-6xl  ">A barn house of this design has a striking
+                        appearance</h1>
+                    <p class="py-6 font-medium text-sm md:text-base">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal <br> accents, and large windows that flood the space with natural
+                        light.
+                    </p>
+                    <button
+                        class="text-xl w-full md:w-52  font-extrabold text-slate-950 btn bg-[#ABEF5F] bg-opacity-50 border-[#ABEF5F] rounded-r-full rounded-full">View
+                        Details <span class="ml-1 flex justify-center items-center h-8 w-8 bg-secondery rounded-full ">
+                            <i class="p-2 fa-solid fa-arrow-right fa-rotate-by"
+                                style="color: #1c1c1c; --fa-rotate-angle: -45deg; "></i></span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="card max-w-6xl gap-4 mx-auto lg:card-side item pb-10 ">
+
+            <div class="gap-4 flex flex-col flex-1">
+                <div class="card-body pl-0 items-start">
+                    <h4 class="px-4 py-2 rounded-full text-base font-bold bg-white border"><i
+                            class="mr-2 fa-solid fa-arrow-right" style="color: #494949;"></i>About Us</h4>
+                    <h1 class="text-4xl font-bold text-[#212121]">We design thoughtful, liveable spaces</h1>
+                    <p class="font-medium text-base">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="card card-side p-0 bg-base-100 shadow-xl">
+                    <figure class="p-6">
+                        <img src="assets/commercial.png" alt="Movie" />
+                    </figure>
+                    <div class="card-body p-6 pl-0">
+                        <h2 class="card-title">Commercial</h2>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                    </div>
+                </div>
+                <div class="card card-side p-0 bg-base-100 shadow-xl">
+                    <figure class="p-6">
+                        <img src="assets/residential.png" alt="Movie" />
+                    </figure>
+                    <div class="card-body p-6 pl-0">
+                        <h2 class="card-title">Residential</h2>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-lg">
+                <img class=" size-full object-none " src="assets/Rectangle.png" alt="" />
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
